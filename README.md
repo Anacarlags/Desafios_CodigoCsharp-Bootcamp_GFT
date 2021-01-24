@@ -7,7 +7,7 @@
 | Etapa |                              Desafio                              |     Solução     |
 |:---:|:------------------------:|:-------:|
 |  1  | Cálculo de Viagem | [Código]() |
-|  2  | Álbum da Copa | [Código]() |
+|  2  | Álbum da Copa | [Código](https://github.com/Anacarlags/Desafios_CodigoCsharp-Bootcamp_GFT/tree/master/AlbumCopa) |
 |  3  | Animal | [Código]() |
 
 
