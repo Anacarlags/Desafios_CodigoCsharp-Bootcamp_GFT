@@ -14,8 +14,8 @@
 
 ### Desenvolvedoras: 
 
-| Ana Carla I [Github]() | [LinkedIn]()
-| Pamela |[Github]() | [LinkedIn]()
-| Tayane |[Github]() | [LinkedIn]()
+| Ana Carla I [Github]() | [LinkedIn]()| <br>
+| Pamela |[Github]() | [LinkedIn]()|<br>
+| Tayane |[Github]() | [LinkedIn]()|
 
 
