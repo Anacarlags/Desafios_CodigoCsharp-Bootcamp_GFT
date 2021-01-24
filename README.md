@@ -1,6 +1,5 @@
-#Desafios de código em C# BootCamp GFT - Digital Innovation one
 
-<h1 align="center">Desafios e Soluções :books:</h1>
+<h1 align="center">Desafios de código em C# BootCamp GFT - Digital Innovation one</h1>
 
 
 <h3 align="left">Desenvolvendo Algoritmos com C#</h3>
