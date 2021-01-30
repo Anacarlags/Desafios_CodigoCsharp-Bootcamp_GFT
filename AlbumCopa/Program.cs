@@ -1,30 +1,42 @@
-﻿using System;
-using System.Linq;
+using System;
 
 class Program {
   
-    static void Main(string[] args) {
-        int numeroDeFigurinhas = Int32.Parse(Console.ReadLine());
-        int numeroDeFigurinhasCompradas = Int32.Parse(Console.ReadLine());
-        int totalDeFigurinhas = 0;
+  static void Main(string[] args) {
+    int numeroDeFigurinhas = Int32.Parse(Console.ReadLine());
+    int numeroDeFigurinhasCompradas = Int32.Parse(Console.ReadLine());
+    int totalDeFigurinhas = 0;
 
-        int[] albumDeFigurinha = new int[numeroDeFigurinhas];
+    int[] albumDeFigurinha = new int[numeroDeFigurinhasCompradas];
+    int[] Repetidas = new int[numeroDeFigurinhas];
 
-        
-            // IMPLEMENTE AQUI A SOLUÇÃO
-        for (int i = 0; i < numeroDeFigurinhasCompradas; i++) {
-            int figurinha = int.Parse(Console.ReadLine());
-            if (!albumDeFigurinha.Contains(figurinha)) {
-                albumDeFigurinha[i] = figurinha;
-                numeroDeFigurinhas -= 1;
+    // IMPLEMENTE AQUI A SOLUÇÃO
+
+    for(int i=0; i < numeroDeFigurinhas; i++)
+      Repetidas[i] = 0;
+    for (int j=0; j < numeroDeFigurinhasCompradas; j++)
+        {
+            albumDeFigurinha[i] = Int32.Parse(Console.ReadLine());
+        }
+    
+
+    var contadorDeFigurinhas = 0;
+    var albumPreenchido = 0;
+    for (int k = 0; k < numeroDeFigurinhas; k++)
+    {
+        for (int l = 0; l < albumDeFigurinha.Length; l++)
+        {
+            if (q == albumDeFigurinha[l]-1)
+            {
+              AsQueTem[k] = 1;
             }
-            if (numeroDeFigurinhas == 0) {
-                break;
-            }
-            }
-
-        totalDeFigurinhas = numeroDeFigurinhas;
-
-        Console.WriteLine(totalDeFigurinhas);
+        }
+        if(AsQueTem[k] == 1)
+          totalDeFigurinhas++;   
     }
+
+    Console.WriteLine(numeroDeFigurinhas - totalDeFigurinhas);
+
+  }
+
 }
