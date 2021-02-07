@@ -28,10 +28,10 @@ class Program {
         {
             if (q == albumDeFigurinha[l]-1)
             {
-              AsQueTem[k] = 1;
+              Repetidas[k] = 1;
             }
         }
-        if(AsQueTem[k] == 1)
+        if(Repetidas[k] == 1)
           totalDeFigurinhas++;   
     }
 
