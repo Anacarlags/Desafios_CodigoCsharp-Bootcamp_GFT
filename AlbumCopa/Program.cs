@@ -26,7 +26,7 @@ class Program {
     {
         for (int l = 0; l < albumDeFigurinha.Length; l++)
         {
-            if (q == albumDeFigurinha[l]-1)
+            if (l == albumDeFigurinha[l]-1)
             {
               Repetidas[k] = 1;
             }
